@@ -77,8 +77,8 @@ function App(): JSX.Element {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
-            This is modified <Text style={styles.highlight}>App.tsx</Text> file
-            and This is my first project.
+            This is modified <Text style={styles.highlight}>App.tsx</Text> file.
+            "Hello world!"This is My First Application.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
